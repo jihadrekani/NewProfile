@@ -3,6 +3,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import logo from "./images/jrjr.jpg";
 import Steps from "./components/Steps";
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -41,7 +42,7 @@ function App() {
  <div className=' flex items-center mb-3'>
   <label className='mx-4 font-bold text-yellow-600 w-[120px]'>HTML</label>
         <div className="w-full bg-gray-200 rounded-full h-8 ">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "97%"}}> 97%</div>
+  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "94%"}}> 94%</div>
 </div>
 </div>
 
@@ -213,7 +214,7 @@ function App() {
 </div>
 
 <Projects />
-
+<Contact />
 </div>
   );
 }

@@ -55,11 +55,11 @@ export default function Steps() {
           </div>
           
           <a
-            href="/"
+            href="#contact"
             aria-label=""
             className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 hover:underline"
           >
-            Learn more
+            Contact
           </a>
         </div>
       </div>
