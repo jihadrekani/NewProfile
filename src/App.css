@@ -4,11 +4,29 @@
 
 
 
+/* .center{
+    display: flex;
+    justify-content: center;
+
+} */
 
 
+@media screen and (max-width: 640px){
+    .skills{
+        
+margin-left: 18px;
+}
+.progress{
+height: 20px;
 
-
-
+}
+.my-margin{
+    margin-top: 200px;
+}
+.project-margin{
+    margin-bottom: 20px;
+}
+}
 
 
 

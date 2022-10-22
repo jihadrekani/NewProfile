@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className='' >
+    <div className='bg-sky-900' >
 
 <div className="relative">
         <img
@@ -38,51 +38,39 @@ function App() {
 
 
         {/* my skills */}
-        <div className='bg-sky-800 py-4 px-3 container mx-auto '>
+        <div className=' rounded-lg py-4 px-3 container mx-auto '>
  <div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>HTML</label>
-        <div className="w-full bg-gray-200 rounded-full h-8 ">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "94%"}}> 94%</div>
+  <label className='mx-4 font-bold text-white w-[120px]'>HTML</label>
+        <div className="w-full progress bg-gray-200 rounded-full h-8 ">
+  <div className="progress bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "94%"}}> 94%</div>
 </div>
 </div>
 
  
 <div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>CSS</label>
-        <div className="w-full bg-gray-200 rounded-full h-8 ">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "90%"}}> 90%</div>
+  <label className='mx-4 font-bold text-white w-[120px]'>CSS</label>
+        <div className="w-full progress bg-gray-200 rounded-full h-8 ">
+  <div className="bg-yellow-600 progress progress text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8 " style={{'width': "90%"}}> 90%</div>
 </div>
 </div>
 
 <div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>JAVASCRIPT</label>
-        <div className="w-full bg-gray-200 rounded-full h-8">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "70%"}}> 70%</div>
+  <label className='mx-4 font-bold  text-white w-[120px]'>JAVASCRIPT</label>
+        <div className="w-full progress bg-gray-200 rounded-full h-8">
+  <div className="bg-yellow-600 progress text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "70%"}}> 70%</div>
 </div>
 </div>
 
 
 
 <div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>Bootstrap</label>
-        <div className="w-full bg-gray-200 rounded-full h-8">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "85%"}}> 85%</div>
+  <label className='mx-4 font-bold text-white w-[120px]'>Bootstrap</label>
+        <div className="w-full progress bg-gray-200 rounded-full h-8">
+  <div className="bg-yellow-600 progress text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "85%"}}> 85%</div>
 </div>
 </div>
 
 
-
-
-
-
-
-
-<div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>React JS</label>
-        <div className="w-full bg-gray-200 rounded-full h-8">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "70%"}}> 70%</div>
-</div>
-</div>
 
 
 
@@ -90,9 +78,9 @@ function App() {
 
 
 <div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>Tailwind CSS</label>
-        <div className="w-full bg-gray-200 rounded-full h-8">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "90%"}}> 90%</div>
+  <label className='mx-4 font-bold text-white w-[120px]'>React JS</label>
+        <div className="w-full progress bg-gray-200 rounded-full h-8">
+  <div className="bg-yellow-600 progress text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "70%"}}> 70%</div>
 </div>
 </div>
 
@@ -102,9 +90,9 @@ function App() {
 
 
 <div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>Axios</label>
-        <div className="w-full bg-gray-200 rounded-full h-8">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "75%"}}> 75%</div>
+  <label className='mx-4 font-bold text-white w-[120px]'>Tailwind CSS</label>
+        <div className="w-full progress bg-gray-200 rounded-full h-8">
+  <div className="bg-yellow-600 progress text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "90%"}}> 90%</div>
 </div>
 </div>
 
@@ -114,10 +102,22 @@ function App() {
 
 
 <div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>Json
+  <label className='mx-4 font-bold text-white w-[120px]'>Axios</label>
+        <div className="w-full progress bg-gray-200 rounded-full h-8">
+  <div className="bg-yellow-600 progress text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "75%"}}> 75%</div>
+</div>
+</div>
+
+
+
+
+
+
+<div className=' flex items-center mb-3'>
+  <label className='mx-4 font-bold text-white w-[120px]'>Json
 </label>
-        <div className="w-full bg-gray-200 rounded-full h-8">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "75%"}}> 75%</div>
+        <div className="w-full progress bg-gray-200 rounded-full h-8">
+  <div className="bg-yellow-600 progress text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "75%"}}> 75%</div>
 </div>
 </div>
 
@@ -127,10 +127,10 @@ function App() {
 
 
 <div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>Redux Toolkit
+  <label className='mx-4 font-bold text-white w-[120px]'>Redux Toolkit
 </label>
-        <div className="w-full bg-gray-200 rounded-full h-8">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "55%"}}> 55%</div>
+        <div className="w-full progress bg-gray-200 rounded-full h-8">
+  <div className="bg-yellow-600 progress text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "55%"}}> 55%</div>
 </div>
 </div>
 
@@ -140,9 +140,9 @@ function App() {
 
 
 <div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>Formik & Yup</label>
-        <div className="w-full bg-gray-200 rounded-full h-8">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "60%"}}> 60%</div>
+  <label className='mx-4 font-bold text-white w-[120px]'>Formik & Yup</label>
+        <div className="w-full progress bg-gray-200 rounded-full h-8">
+  <div className="bg-yellow-600 progress text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "60%"}}> 60%</div>
 </div>
 </div>
 
@@ -152,9 +152,9 @@ function App() {
 
 
 <div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>Next.js</label>
-        <div className="w-full bg-gray-200 rounded-full h-8">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "75%"}}> 75%</div>
+  <label className='mx-4 font-bold text-white w-[120px]'>Next.js</label>
+        <div className="w-full progress bg-gray-200 rounded-full h-8">
+  <div className="bg-yellow-600 progress text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "75%"}}> 75%</div>
 </div>
 </div>
 
@@ -164,9 +164,9 @@ function App() {
 
 
 <div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>TypeScript</label>
-        <div className="w-full bg-gray-200 rounded-full h-8">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "70%"}}> 70%</div>
+  <label className='mx-4 font-bold text-white w-[120px]'>TypeScript</label>
+        <div className="w-full progress bg-gray-200 rounded-full h-8">
+  <div className="bg-yellow-600 progress text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "70%"}}> 70%</div>
 </div>
 </div>
 
@@ -176,9 +176,9 @@ function App() {
 
 
 <div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>React Leaflet</label>
-        <div className="w-full bg-gray-200 rounded-full h-8">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "80%"}}> 80%</div>
+  <label className='mx-4 font-bold text-white w-[120px]'>React Leaflet</label>
+        <div className="w-full progress bg-gray-200 rounded-full h-8">
+  <div className="bg-yellow-600 progress text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "80%"}}> 80%</div>
 </div>
 </div>
 
@@ -188,10 +188,10 @@ function App() {
 
 
 <div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>Netlify Deploying
+  <label className='mx-4 font-bold text-white w-[120px]'>Netlify Deploying
 </label>
-        <div className="w-full bg-gray-200 rounded-full h-8">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "90%"}}> 90%</div>
+        <div className="w-full progress bg-gray-200 rounded-full h-8">
+  <div className="bg-yellow-600 progress text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "90%"}}> 90%</div>
 </div>
 </div>
 
@@ -201,10 +201,10 @@ function App() {
 
 
 <div className=' flex items-center mb-3'>
-  <label className='mx-4 font-bold text-yellow-600 w-[120px]'>Github
+  <label className='mx-4 font-bold text-white w-[120px]'>Github
 </label>
-        <div className="w-full bg-gray-200 rounded-full h-8">
-  <div className="bg-yellow-600 text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "88%"}}> 88%</div>
+        <div className="w-full progress bg-gray-200 rounded-full h-8">
+  <div className="bg-yellow-600 progress text-xs font-medium text-blue-100 text-center flex items-center justify-center p-0.5 leading-none rounded-r-full h-8" style={{'width': "88%"}}> 88%</div>
 </div>
 </div>
 

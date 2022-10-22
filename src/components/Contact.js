@@ -1,10 +1,16 @@
 import React from 'react'
 
+
+
+// from-gray-200 via-sky-800 to-sky-900 bg-gradient-to-br
+
+
 export default function Contact() {
   return (
-    <div id='contact'>
-<div className='flex items-center justify-center min-h-screen mt-8 from-sky-300 via-sky-700 to-sky-800 bg-gradient-to-br'>
-	<div className=" rounded-3xl md:p-1 text-center grid   xxl:grid-cols-5 xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2  ">
+    <div className='' id='contact'>
+    <h2 className='text-center mt-[150px] text-3xl text-white font-bold '>Contact Me </h2>
+<div className='flex items-center justify-center pb-[20px] mt-10 my-margin bg-sky-900'>
+	<div className=" rounded-3xl md:p-1 text-center grid  2xl:grid-cols-5 xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2  ">
 		<a  href="https://instagram.com/jihadissaa?igshid=YmMyMTA2M2Y=" className="inline-flex  text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-2xl text-sm px-5 py-2.5 text-center mr-2 mb-2">
                 <svg xmlns="http://www.w3.org/2000/svg"
                     className="mr-2 -ml-1 w-8 h-8"
@@ -17,7 +23,7 @@ export default function Contact() {
                 <span className="px-2 py-4 text-2xl text-gray-100 border-l-2 border-gray-100 font-mono">
                 </span>
                 <div className='text-xl font-mono font-bold pt-0.5'>
-                    @Instagram
+                    Instagram
                 </div>
             </a>
 
@@ -27,7 +33,7 @@ export default function Contact() {
                 <span className="px-2 py-4 text-2xl text-gray-100 border-l-2 border-gray-100 font-mono">
                 </span>
                 <div className='text-xl font-mono font-bold pt-0.5'>
-                    @Facebook
+                    Facebook
                 </div>
             </a>
 
@@ -37,7 +43,7 @@ export default function Contact() {
                 <span className="px-2 py-4 text-2xl text-gray-100 border-l-2 border-gray-100 font-mono">
                 </span>
                 <div className='text-xl font-mono font-bold pt-0.5'>
-                    @Youtube
+                    Youtube
                 </div>
             </a>
 

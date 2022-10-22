@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 export default function Projects() {
   return (
     <div id='projects'>
-      <h1 className='font-bold text-3xl mb-12 mt-[100px] text-center' >PROJECTS</h1>
-      <div className=' grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2  '>
+      <h1 className='font-bold text-3xl mb-12 mt-[100px] text-center  text-white' >PROJECTS</h1>
+      <div className='container  grid h-screen place-items-center xl:grid-cols-2 lg:grid-cols-2  md:grid-cols-2  sm:grid-cols-1 md:space-x-2 sm:space-x-2 sm:space-y-8    '>
    
 
 
-      <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div className="project-margin max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 ">
     <a href="https://jr-cars.netlify.app/">
         <img className="rounded-t-lg h-[250px] w-[400px]" src="https://th.bing.com/th/id/R.e9a636becb4b100ed8eacad468c80568?rik=RUA2cTL4Ko1oMQ&riu=http%3a%2f%2fwww.marinoperformancemotors.com%2fimagetag%2f13302%2f10%2fl%2fUsed-2020-Land-Rover-Range-Rover-Sport-SVR.jpg&ehk=k05jfSTuEIbYTryogfvpdPZT1wWxYhtJZRBmdrUsTus%3d&risl=&pid=ImgRaw&r=0" alt=""/>
     </a>
