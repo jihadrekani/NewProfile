@@ -38,7 +38,9 @@ function App() {
 
 
         {/* my skills */}
-        <div className=' rounded-lg py-4 px-3 container mx-auto '>
+      <h1 className='font-bold text-3xl mb-[75px]  text-center  text-white' >Skills</h1>
+
+        <div className=' rounded-lg  px-3 container mx-auto '>
  <div className=' flex items-center mb-3'>
   <label className='mx-4 font-bold text-white w-[120px]'>HTML</label>
         <div className="w-full progress bg-gray-200 rounded-full h-8 ">

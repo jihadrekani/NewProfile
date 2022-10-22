@@ -23,11 +23,14 @@ height: 20px;
 .my-margin{
     margin-top: 200px;
 }
-.project-margin{
-    margin-bottom: 20px;
-}
+
 }
 
+@media screen and (max-width: 767px){
+    .my-margin{
+        margin-top: 40px;
+    }
 
 
+}
 

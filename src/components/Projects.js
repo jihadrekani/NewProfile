@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div id='projects'>
       <h1 className='font-bold text-3xl mb-12 mt-[100px] text-center  text-white' >PROJECTS</h1>
-      <div className='container  grid h-screen place-items-center xl:grid-cols-2 lg:grid-cols-2  md:grid-cols-2  sm:grid-cols-1 md:space-x-2 sm:space-x-2 sm:space-y-8    '>
+      <div className='  grid  place-items-center xl:grid-cols-2 lg:grid-cols-2  md:grid-cols-2  sm:grid-cols-1   md:space-x-2   '>
    
 
 
@@ -26,7 +26,7 @@ export default function Projects() {
 </div>
 
 
-<div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+<div className="my-margin max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
         <img className="rounded-t-lg h-[250px] w-[400px]" src="https://images.unsplash.com/photo-1585244759837-5bb4b3a6919c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt=""/>
     </a>
