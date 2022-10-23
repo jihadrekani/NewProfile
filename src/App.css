@@ -10,6 +10,18 @@
 
 } */
 
+*{
+    font-family: 'Changa', sans-serif;
+}
+
+.direction{
+    direction: rtl;
+}
+
+.font-fam{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
 
 @media screen and (max-width: 640px){
     .skills{
@@ -24,6 +36,11 @@ height: 20px;
     margin-top: 200px;
 }
 
+.heading-margin{
+    margin-top:-200px;
+    
+}
+
 }
 
 @media screen and (max-width: 767px){
@@ -31,6 +48,9 @@ height: 20px;
         margin-top: 40px;
     }
 
-
+    .heading-margin{
+        margin-top:-200px;
+        font-size: 30px;
+    }
 }
 

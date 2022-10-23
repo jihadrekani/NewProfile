@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
-import logo from "./images/jrjr.jpg";
+import logo from "./images/1.jpg";
 import Steps from "./components/Steps";
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -15,18 +15,18 @@ function App() {
           className="absolute inset-0 object-cover  w-full h-full"
           alt=""
         />
-        <div className="relative bg-gray-900 bg-opacity-75">
+        <div className="relative bg-gray-900 bg-opacity-50">
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-60">
             <div className="flex flex-col items-center justify-between xl:flex-row">
-              <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
-                <h2 className="animate-pulse 	 max-w-lg mb-6 font-sans  font-bold tracking-tight text-white  sm:text-3xl sm:leading-none md:text-4xl lg:text-5xl">
+              <div className="w-full max-w-xl mt-[200px] mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
+                <h2 className="animate-pulse 2xl:-mt-[420px] xl:-mt-[420px] lg:-mt-[420px] md:-mt-[220px] sm:-mt-[220px] heading-margin	 max-w-lg mb-6 font-sans  font-bold tracking-tight text-white  sm:text-3xl sm:leading-none md:text-4xl lg:text-5xl">
                   Hi, My name is Jihad
                 </h2>
-                <p className="max-w-xl mb-4 text-base hover:text-yellow-600 text-gray-400 md:text-lg">
+                {/* <p className="max-w-xl mb-4 text-base hover:text-yellow-600 text-gray-400 md:text-lg">
                   I am 27 years old and I live in Duhok, I have a diploma at
                   electricity and power department, felt in love with
                   programing...
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -38,9 +38,9 @@ function App() {
 
 
         {/* my skills */}
-      <h1 className='font-bold text-3xl mb-[75px]  text-center  text-white' >Skills</h1>
+      <h1 className='font-bold text-3xl mb-[45px] md:-mt-[80px] my-margin   text-center  text-white' >Skills</h1>
 
-        <div className=' rounded-lg  px-3 container mx-auto '>
+        <div className=' rounded-lg  px-3  mx-auto '>
  <div className=' flex items-center mb-3'>
   <label className='mx-4 font-bold text-white w-[120px]'>HTML</label>
         <div className="w-full progress bg-gray-200 rounded-full h-8 ">
