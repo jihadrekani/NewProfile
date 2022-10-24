@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <div className='' id='contact'>
     <h2 className='text-center mt-[150px] text-3xl text-white font-bold '>Contact Me </h2>
-<div className='flex items-center justify-center pb-[20px] mt-10 my-margin bg-sky-900'>
+<div className='flex items-center justify-center pb-[20px] mt-10 my-margin bg-black'>
 	<div className=" rounded-3xl md:p-1 text-center grid  2xl:grid-cols-5 xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2  ">
 		<a  href="https://instagram.com/jihadissaa?igshid=YmMyMTA2M2Y=" target="blank" className="inline-flex  text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-2xl text-sm px-5 py-2.5 text-center mr-2 mb-2">
                 <svg xmlns="http://www.w3.org/2000/svg"

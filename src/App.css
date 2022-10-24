@@ -22,6 +22,16 @@
     font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
+@media screen and (max-width: 445px){
+
+.mobile-f-size{
+font-size: 500px;
+    background-color: red;
+    margin-right: 800px;
+}
+
+
+}
 
 @media screen and (max-width: 640px){
     .skills{
@@ -36,10 +46,7 @@ height: 20px;
     margin-top: 200px;
 }
 
-.heading-margin{
-    margin-top:-200px;
-    
-}
+
 
 }
 
@@ -49,8 +56,9 @@ height: 20px;
     }
 
     .heading-margin{
-        margin-top:-200px;
-        font-size: 30px;
+        margin-top:-160px;
+        margin-left: 263px;
+        font-size: 20px;
     }
 }
 

@@ -12,6 +12,7 @@ export default function Steps() {
       </div>
       <div className="  h-screen place-items-center gap-8 row-gap-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
     
+
         <div className="sm:text-center">
           <div className="flex items-center justify-center w-24 h-24 mb-4 text-5xl font-extrabold rounded-full text-yellow-600 bg-indigo-50 sm:mx-auto">
             1
