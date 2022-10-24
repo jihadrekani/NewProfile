@@ -19,9 +19,9 @@ function App() {
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-60">
             <div className="flex flex-col items-center justify-between xl:flex-row">
               <div className="w-full max-w-xl mt-[200px] mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
-                <h2 className="animate-pulse 2xl:-mt-[420px] xl:-mt-[420px] lg:-mt-[380px] lg:ml-[120px] md:-mt-[190px] md:ml-[290px] sm:-mt-[165px] sm:ml-[263px] heading-margin mobile-f-size 	 max-w-lg mb-6 font-sans  font-bold tracking-tight text-white  sm:text-3xl sm:leading-none md:text-3xl lg:text-5xl">
-                  Hi, My name is <span className='text-yellow-600'>Jihad</span>
-                </h2>
+               <div className='jr'> <h2 className="animate-pulse 2xl:-mt-[420px] xl:-mt-[420px] xl:-mr-[520px] lg:-mt-[380px] lg:ml-[120px] md:-mt-[190px] md:ml-[290px] sm:-mt-[165px] sm:ml-[263px] heading-margin 	 max-w-lg mb-6 font-sans  font-bold tracking-tight text-white  sm:text-3xl sm:leading-none md:text-3xl lg:text-5xl xl:text-4xl">
+                  Hi,Welcome 
+                </h2></div>
                 {/* <p className="max-w-xl mb-4 text-base hover:text-yellow-600 text-gray-400 md:text-lg">
                   I am 27 years old and I live in Duhok, I have a diploma at
                   electricity and power department, felt in love with

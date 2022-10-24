@@ -25,11 +25,17 @@
 @media screen and (max-width: 445px){
 
 .mobile-f-size{
-font-size: 500px;
     background-color: red;
-    margin-right: 800px;
+
+left: 0;
+    color: black;
 }
 
+.jr{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
 }
 
