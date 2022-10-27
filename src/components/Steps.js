@@ -14,7 +14,7 @@ export default function Steps() {
     
 
         <div className="sm:text-center">
-          <div className="flex items-center justify-center w-24 h-24 mb-4 text-5xl font-extrabold rounded-full text-yellow-600 bg-indigo-50 sm:mx-auto">
+          <div className="flex items-center justify-center w-24 h-24 mb-4 text-5xl font-extrabold rounded-full text-black bg-indigo-50 sm:mx-auto">
             1
           </div>
         
@@ -22,7 +22,7 @@ export default function Steps() {
            href='#skills'
            id='skills'
             aria-label=""
-            className="inline-flex skills items-center text-2xl  font-semibold transition-colors duration-200 text-yellow-600 hover:text-deep-purple-800 hover:underline"
+            className="inline-flex skills items-center text-2xl  font-semibold transition-colors duration-200 text-white hover:text-deep-purple-800 hover:underline"
           >
             Skills
           </a>
@@ -33,14 +33,14 @@ export default function Steps() {
 
         <div className="sm:text-center">
           
-          <div className="flex items-center justify-center w-24 h-24 mb-4 text-5xl font-extrabold rounded-full text-yellow-600 bg-indigo-50 sm:mx-auto">
+          <div className="flex items-center justify-center w-24 h-24 mb-4 text-5xl font-extrabold rounded-full text-black bg-indigo-50 sm:mx-auto">
             2
           </div>
          
           <a
             href="#projects"
             aria-label=""
-            className="inline-flex text-2xl items-center font-semibold transition-colors duration-200 text-yellow-600 hover:text-deep-purple-800 hover:underline"
+            className="inline-flex text-2xl items-center font-semibold transition-colors duration-200 text-white hover:text-deep-purple-800 hover:underline"
           >
             Projects
           </a>
@@ -51,14 +51,14 @@ export default function Steps() {
 
 
         <div className="sm:text-center">
-          <div className="flex items-center justify-center w-24 h-24 mb-4 text-5xl font-extrabold rounded-full text-yellow-600 bg-indigo-50 sm:mx-auto">
+          <div className="flex items-center justify-center w-24 h-24 mb-4 text-5xl font-extrabold rounded-full text-black bg-indigo-50 sm:mx-auto">
             3
           </div>
           
           <a
             href="#contact"
             aria-label=""
-            className="inline-flex text-2xl items-center font-semibold transition-colors duration-200 text-yellow-600 hover:text-deep-purple-800 hover:underline"
+            className="inline-flex text-2xl items-center font-semibold transition-colors duration-200 text-white hover:text-deep-purple-800 hover:underline"
           >
             Contact
           </a>

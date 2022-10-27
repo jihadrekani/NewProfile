@@ -639,7 +639,6 @@ export default function About() {
   </div>
 </section>
 {/* <!-- ====== About Section End -->? */}
-
     </div>
   )
 }
