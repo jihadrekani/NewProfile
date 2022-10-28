@@ -5,14 +5,15 @@ import Steps from "./components/Steps";
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import About from './components/About';
+import Navbar from './components/Navbar';
 function App() {
   return (
-    <div className='bg-black' >
-
-<div className="relative">
+    <div className='bg-black' id='home' >
+<Navbar />
+<div className="relative  ">
         <img
           src={logo}
-          className="absolute inset-0 object-cover  w-full h-full"
+          className="absolute  inset-0 object-cover  w-full h-full"
           alt=""
         />
         <div className="relative bg-gray-900 bg-opacity-50">

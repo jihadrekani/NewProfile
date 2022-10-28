@@ -9,7 +9,7 @@ export default function About() {
 
 
 {/* <!-- ====== About Section Start --> */}
-<section  className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+<section id='about' className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
   <div className="container mx-auto">
     <div className="-mx-4 flex flex-wrap items-center justify-between">
       <div className="w-full px-4 lg:w-6/12">
@@ -17,23 +17,24 @@ export default function About() {
           <div className="w-full px-3 sm:px-4 xl:w-1/2">
             <div className="py-3 sm:py-4">
               <img
-                src={img1}
+                src={img2}
                 alt=""
                 className="w-full rounded-2xl"
               />
             </div>
-            {/* <div className="py-3 sm:py-4">
+             <div className="py-3 sm:py-4">
               <img
                 src={img3}
                 alt=""
                 className="w-full rounded-2xl"
               />
-            </div> */}
+            </div> 
           </div>
+          
           <div className="w-full px-3 sm:px-4 xl:w-1/2">
-            <div className="relative z-10 my-4">
+            <div className="relative  my-4">
               <img
-                src={img2}
+                src={img1}
                 alt=""
                 className="w-full rounded-2xl"
               />
