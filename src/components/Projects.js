@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Projects() {
   return (
     <div id='projects'>
-      <h1 className='font-bold text-3xl mb-12 mt-[100px] text-center  text-yellow-600' >PROJECTS</h1>
+      <h1 className='font-bold text-3xl mb-12 mt-[250px] text-center  text-yellow-600' >PROJECTS</h1>
       <div className='  grid  place-items-center xl:grid-cols-2 lg:grid-cols-2  md:grid-cols-2  sm:grid-cols-1   md:space-x-2   '>
    
 

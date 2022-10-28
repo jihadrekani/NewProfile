@@ -22,13 +22,13 @@ export default function About() {
                 className="w-full rounded-2xl"
               />
             </div>
-            <div className="py-3 sm:py-4">
+            {/* <div className="py-3 sm:py-4">
               <img
                 src={img3}
                 alt=""
                 className="w-full rounded-2xl"
               />
-            </div>
+            </div> */}
           </div>
           <div className="w-full px-3 sm:px-4 xl:w-1/2">
             <div className="relative z-10 my-4">
