@@ -17,7 +17,7 @@ export default function About() {
           <div className="w-full px-3 sm:px-4 xl:w-1/2">
             <div className="py-3 sm:py-4">
               <img
-                src={img2}
+                src={img1}
                 alt=""
                 className="w-full rounded-2xl"
               />
@@ -34,7 +34,7 @@ export default function About() {
           <div className="w-full px-3 sm:px-4 xl:w-1/2">
             <div className="relative  my-4">
               <img
-                src={img1}
+                src={img2}
                 alt=""
                 className="w-full rounded-2xl"
               />

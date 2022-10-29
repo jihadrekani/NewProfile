@@ -27,8 +27,8 @@ export default function Example() {
         <body class="h-full">
         ```
       */}
-      <div className="min-h-full fixed w-full   z-[2]">
-        <Disclosure as="nav" className="bg-gray-900   ">
+      <div className="min-h-full  w-full   z-[2]">
+        <Disclosure as="nav" className="bg-black border border-solid border-gray-600  ">
           {({ open }) => (
             <>
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
