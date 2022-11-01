@@ -621,7 +621,7 @@ export default function About() {
             Front-End Developer
           </span>
           <p className="text-white mb-8 text-lg ml-1">
-            My name is Jihad i'm a Front-End Developer in Duhok Iraqi Kurdistan.I have developed alot of front-ends , espesialy with React and Tailwind.
+            My name is Jihad i'm a Front-End Developer in Duhok Iraqi Kurdistan.I have developed alot of front-ends , espesialy with React and Tailwind. And also I have the ability to translate Kurdish , Arabic and English.
           </p>
         
 
